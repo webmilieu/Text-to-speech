@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Text To Voice</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+	<script>
+	  var i=0;
+	  var j;
+	  var t;
+	  var str;
+	  function reset(){
+	 window.location.href="index.html"; }
+	  function start(){
+	  str=document.getElementById("txt").value;
+	  t=str.toLowerCase();
+	  alert(t);
+	   j=t.length;
+	 var p;
+	 setInterval(function(){
+	 if(i<j){
+	 p=t.charAt(i);
+	 if(p==='a'){
+		document.getElementById("a").play();}
+		if(p==='b'){
+		document.getElementById("b").play();}
+		if(p==='c'){
+		document.getElementById("c").play();}
+		if(p==='d'){
+		document.getElementById("d").play();}
+	    if(p==='e'){
+	document.getElementById("e").play();
+		}
+		if(p==='f'){
+		document.getElementById("f").play();}
+         if(p==='g'){
+		document.getElementById("g").play();}
+		if(p==='h'){
+		document.getElementById("h").play();}
+		if(p==='i'){
+		document.getElementById("i").play();}
+		if(p==='j'){
+		document.getElementById("j").play();}
+		if(p==='k'){
+		document.getElementById("k").play();}
+		if(p==='l'){
+		document.getElementById("l").play();}
+		if(p==='m'){
+		document.getElementById("m").play();}
+		if(p==='n'){
+		document.getElementById("n").play();}
+		if(p==='o'){
+		document.getElementById("o").play();}
+		if(p==='p'){
+		document.getElementById("p").play();}
+		if(p==='q'){
+		document.getElementById("q").play();}
+		if(p==='r'){
+		document.getElementById("r").play();}
+		if(p==='s'){
+		document.getElementById("s").play();}
+		if(p==='t'){
+		document.getElementById("t").play();}
+		if(p==='u'){
+		document.getElementById("u").play();}
+		if(p==='v'){
+		document.getElementById("v").play();}
+		if(p==='w'){
+		document.getElementById("w").play();}
+		if(p==='x'){
+		document.getElementById("x").play();}
+		if(p==='y'){
+		document.getElementById("y").play();}
+		if(p==='z'){
+		document.getElementById("z").play();}
+	}i++;},300);
+	}
+	 </script>
+	 <div class="entertext">
+	<input type="text" id="txt" value=""><br><br>
+	   <button onclick="start()">Start</button><br><br>
+	<button onclick="reset()">Reset</button><br><br>
+	   </div>
+<!-- Link to audio files down-->
+	<audio id="a"  src="a.mp3"></audio>
+	<audio id="b" src="b.mp3" ></audio>
+	<audio id="c" src="c.mp3" ></audio>
+	<audio id="d" src="d.mp3" ></audio>
+	<audio id="e" src="e.mp3" ></audio>
+	<audio id="f" src="f.mp3" ></audio>
+	<audio id="g" src="g.mp3" ></audio>
+	<audio id="h" src="h.mp3" ></audio>
+	<audio id="i" src="i.mp3" ></audio>
+	<audio id="j" src="j.mp3" ></audio>
+	<audio id="k" src="k.mp3" ></audio>
+	<audio id="l" src="l.mp3" ></audio>
+	<audio id="m" src="m.mp3" ></audio>
+	<audio id="n" src="n.mp3" ></audio>
+	<audio id="o" src="o.mp3" ></audio>
+	<audio id="p" src="p.mp3" ></audio>
+	<audio id="q" src="q.mp3" ></audio>
+	<audio id="r" src="r.mp3" ></audio>
+	<audio id="s" src="s.mp3" ></audio>
+	<audio id="t" src="t.mp3" ></audio>
+	<audio id="u" src="u.mp3" ></audio>
+	<audio id="v" src="v.mp3" ></audio>
+	<audio id="w" src="w.mp3" ></audio>
+	<audio id="x" src="x.mp3" ></audio>
+	<audio id="y" src="y.mp3" ></audio>
+	<audio id="z" src="z.mp3" ></audio>
+	<div class="footer"><p>&copy; Webmilieu 2020</p></div>
+  </body>
+</html>		
